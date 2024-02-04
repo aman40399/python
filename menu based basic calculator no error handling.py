@@ -1,4 +1,4 @@
-#menu driven basic calculator
+# question wapr to create a basic menu driven basic calculator 
 #input logic for number
 num1= int(input("your first number :"))
 num2 =int(input("your first number :"))
