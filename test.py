@@ -1,0 +1,5 @@
+print("india")
+print("america")
+print("noida")
+print("usa")
+print("aman")
