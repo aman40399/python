@@ -76,3 +76,5 @@ print(type(mylist3))
 mylist3.remove(8)
 print(mylist3)
 
+#counting the number of occurance of a element 
+

@@ -3,7 +3,7 @@
 num1= int(input("your first number :"))
 num2 =int(input("your first number :"))
 #menu based ask?
-print("******menu********")
+print("******************************menu*******************************")
 print("***please select one option from below to perform action***")
 print("***option : 1 add***")
 print("***option : 2 minus***")
