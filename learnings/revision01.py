@@ -1,3 +1,9 @@
+#defult input in python 
+# x=input("xyz")
+# #defult type is 
+# print(type(x))
+#default input type is string 
+
 #conditional statment's
 # if and else
 # if elif and else
@@ -14,6 +20,7 @@
 
 
 #single line condition statments/ternary operator
+#it helps you to write the condtional statment in a concise way
 
 
 #syntax
@@ -187,3 +194,49 @@ result_list = [i * 3 for i in concatenated_list]
 
 print("Result after concatenation and element-wise multiplication by 3:", result_list)
 
+
+
+
+#for loop with else
+'''
+for i in range(0,6):
+ print(i)
+ 
+ else print(6)
+ output is 
+ 0 1 2 3 4 5 6 '''
+ # so as loop end with proper functioning(which in this case is printing number form 0-5, then else will be executed )
+ # else will not execute in case where loop is not fully completed 
+ #for example
+'''
+for i in range(0,6):
+print(i)
+if i==4:
+break
+
+else print(6)
+ output is 
+ 0 1 2 3 4  '''
+ #no 6 will be printed beacuse loop is break in middle , not completed same for while loop to
+ 
+ 
+ #functions are the block code which when called performs the code enclossed 
+ #def - define functions 
+ 
+# Sure, here's a comparison table for string, list, tuple, dictionary, and set in Python:
+
+# | Feature          | String                                 | List                                       | Tuple                                     | Dictionary                              | Set                                      |
+# |------------------|----------------------------------------|--------------------------------------------|-------------------------------------------|-----------------------------------------|------------------------------------------|
+# | **Type**         | `str`                                  | `list`                                     | `tuple`                                   | `dict`                                  | `set`                                    |
+# | **Mutable?**     | Immutable                              | Mutable                                    | Immutable                                 | Mutable                                 | Mutable                                  |
+# | **Order**        | Ordered                                | Ordered                                    | Ordered                                   | Unordered                               | Unordered                                |
+# | **Duplicates**   | Duplicates allowed                    | Duplicates allowed                         | Duplicates allowed                        | Unique keys only                        | Unique elements only                     |
+# | **Indexing**     | Access characters by index            | Access elements by index                   | Access elements by index                  | Access values by key                    | No indexing                              |
+# | **Example**      | `"hello"`                              | `[1, 2, 3]`                                | `(1, 2, 3)`                               | `{'a': 1, 'b': 2}`                      | `{1, 2, 3}`                              |
+# | **Creation**     | `my_string = "hello"`                  | `my_list = [1, 2, 3]`                      | `my_tuple = (1, 2, 3)`                    | `my_dict = {'a': 1, 'b': 2}`            | `my_set = {1, 2, 3}`                     |
+# | **Modify**       | Not directly (immutable)              | Add, remove, modify elements               | Not directly (immutable)                  | Add, remove, modify key-value pairs     | Add, remove elements                     |
+# | **Concatenate**  | `"hello" + " world"`                  | `list1 + list2`                            | `tuple1 + tuple2`                         | Not directly                            | `set1.union(set2)` or `set1 | set2`     |
+# | **Length**       | `len(my_string)`                      | `len(my_list)`                             | `len(my_tuple)`                            | `len(my_dict)`                          | `len(my_set)`                            |
+# | **Access**       | `my_string[index]`                    | `my_list[index]`                           | `my_tuple[index]`                         | `my_dict[key]`                          | Not applicable (use iteration or `in`)  |
+
+# This table gives you a quick overview of the main differences and similarities between these data types in Python. 

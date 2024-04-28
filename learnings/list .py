@@ -1,5 +1,5 @@
 # learning about list in this slide
-
+#list are mutable in python which means any change in a list will result in change in main list 
 
 # how do we declare  a list ?
 mylist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -49,7 +49,7 @@ print(mylist)
 mylist.insert(0, "hellokitty2")
 print(mylist)
 # even if a element is already present at the insertion point .insert shift all elements next to the insertion point to next corrospoinding indexing making the postion vacant
-
+mylist.insert
 
 # 3
 mylist.remove(23)
