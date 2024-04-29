@@ -1,4 +1,5 @@
 #functions block of statment which performs a specific task when called 
+#why do we need function at first place ans- to reduce reduncey and increase reusablity 
 """ 
 syntax of function 
   
