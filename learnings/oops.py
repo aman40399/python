@@ -140,5 +140,7 @@ class Froum:
       self.age = oage
  
 obj1=Froum('aman','CSI')
-print(obj1.__name)
+print(obj1.__name)  #thisgive an attribute error so how you can acess it there are some methods for that 
+
+
 
